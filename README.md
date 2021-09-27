@@ -11,7 +11,7 @@
 - **5- align:right;, manque le text-align:right;**
 - **6- marign n'existe pas, margin si**
 - **7- font-width:bold n'existe pas, font-weight:bold; si**
-- **8- balises <b><a pas dans le bon sens <a href><b>**
+- **8- balises <b><a> pas dans le bon sens <a href><b>**
 - **9- balises <b> dépréciée, j'ai mis <strong>**
 - **10- balises </br> mal écrite, <br /> est mieux fermé**
 - **11- Manque le balisage <ul> autour des <li>**
