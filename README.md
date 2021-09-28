@@ -37,6 +37,7 @@ ajout des balises :
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>, <section>, <adresse>
 J'ai ajouté des attributs role="" aria-label="" aux balises html5 pour une meilleure accessibilité
+J'ai ajouté les 2 images dans un dossier img et je les ai trouvé sur https://www.wengo.fr/ en SVG.
 ```
 
 ## License

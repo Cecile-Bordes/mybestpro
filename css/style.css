@@ -4,6 +4,10 @@ body{
     font-family:Arial;
     font-size:13px;
 }
+
+#logo img  {
+    width:10%;
+}
 #menu{margin:10px 15px;text-align:right;}
 
 ul li{
