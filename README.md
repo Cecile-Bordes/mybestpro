@@ -35,6 +35,7 @@ ajout des balises :
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>
+```
 
 ## License
 
