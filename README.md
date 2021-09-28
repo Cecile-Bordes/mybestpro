@@ -23,6 +23,7 @@
 - ** 17- balise img, ajout de l'atribut alt
 - ** 18- Les attributs mis dans la balise table sont obsoletes. Je les ai supprimé et redéclaré dans le style
 - ** 19- Il manque la balise tr pour entourer la balise td colspan="2"
+- ** 20- Ajout au table des balises <thead> et <tbody>
 - ** 20- 2 Erreurs font-style: underline, transformé en font-style: italic;text-decoration: underline;
 - ** 21- Manque la fermeture de la balise div id=page juste avant </body>
 - ** 22- J'ai ajouté une class .adresse à la fin de la page à la place du style en ligne.
@@ -34,7 +35,8 @@
 ajout des balises :
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>
+J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>, <section>, <adresse>
+J'ai ajouté des attributs role="" aria-label="" aux balises html5 pour une meilleure accessibilité
 ```
 
 ## License

@@ -16,7 +16,7 @@
 </head>
 <body>
         <div id="page">
-            <header>
+            <header role="banner" aria-label="Entête de page">
                 <div id="logo"><a href="#"><img src="images/logo.jpg" alt="Wengo Logo" /></a></div>
 
                 <nav id="menu">
@@ -32,9 +32,9 @@
                     </ul>
                 </nav>
             </header>
-            <main>
+            <main role="main" aria-label="Contenu principal">
                 <h1>Comment ça marche ?</h1>
-                <div class="how_content">
+                <section class="how_content">
                     <h2>Trouvez votre Expert</h2>
                     <p>Tous nos voyants, psychologues, avocats et autres experts sont qualifiés et leurs profils vérifiés.</p>
 
@@ -61,30 +61,34 @@
                             <li>Sit</li>
                         </ul>
                     
-                </div>
+                    </section>
 
                 <img src="images/bugz_commentcamarche.jpg" alt="comment ça marche" />
 
                 <p><strong>Derniers inscrits :</strong></p>
 
                 <table>
-                    <tr>
-                        <td>Aujourd'hui</td>
-                        <td>Hier</td>
-                    </tr>
-                    <tr>
-                        <td>5</td>
-                        <td>15</td>
-                    </tr>
-                    <tr>
-                        <td colspan="2">
-                            Total : 20
-                        </td>
-                    </tr>
+                    <thead>
+                        <tr>
+                            <td>Aujourd'hui</td>
+                            <td>Hier</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>5</td>
+                            <td>15</td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                Total : 20
+                            </td>
+                        </tr>
+                    </tbody>
                 </table>
             </main>
-            <footer>
-                <div class="adresse">2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris</div>
+            <footer role="contentinfo">
+                <adresse>2021 - MyBestPro - 75 rue d'Amsterdam - 75008 Paris</adresse>
             </footer>
     </div>
     <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
