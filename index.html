@@ -11,7 +11,38 @@
 
 	<link rel="shortcut icon" href="favicon.ico" />
 	<link rel="stylesheet" href="css/style.css" />
-	
+	<script type="application/ld+json">
+        {
+            "@context":"https://schema.org",
+            "@type":"WebPage",
+            "mainEntityOfPage":{
+                "@type":"WebPage",
+                "@id":https://www.wengo.fr/
+            },
+            "headline":"Mon projet : My Best Pro !",
+            "description":"Mon projet",
+            "articleBody":"",
+            "publisher":{
+                "@type":"Organization",
+                "name":"My Best Pro",
+                "logo":{
+                    "@type":"ImageObject",
+                    "url":"./img/logo.svg","height":"550","width":"500"
+                }
+            },
+            "author":{
+                "@type":"Person","name":"Mybestpro"
+            },
+            "datePublished":"2021-09-28T00:00:00Z","dateModified":"2021-09-29T00:00:00Z",
+            "image":{
+                "@type":"ImageObject",
+                "url":https://www.wengo.fr/
+            }
+        }
+    </script> 
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="manifest" href="manifest.json">
 
 </head>
 <body>
@@ -92,5 +123,12 @@
             </footer>
     </div>
     <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>;
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker
+                   .register('sw.js')
+                   .then(function() { console.log("Service Worker Registered"); });
+        }
+      </script>
 </body>
 </html>

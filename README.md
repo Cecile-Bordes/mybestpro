@@ -38,6 +38,10 @@ ajout des balises :
 J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>, <section>, <adresse>
 J'ai ajouté des attributs role="" aria-label="" aux balises html5 pour une meilleure accessibilité
 J'ai ajouté les 2 images dans un dossier img et je les ai trouvé sur https://www.wengo.fr/ en SVG.
+J'ai ajouté du SEO avec un Schéma pour google.
+J'ai ajouté du PWA avec manifest.json et un Service Workers PWA sw.js. Ces 2 éléments permettent à la page d'être accessible même sans connexion internet.
+Et des balises de thème color notament visible sur mobile
+J'ai crée le .ico à partir d'un png du site.
 ```
 
 ## License
