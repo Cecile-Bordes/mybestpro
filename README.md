@@ -22,7 +22,18 @@
 - ** 16- Il manque la balise tr pour entourer la balise td colspan="2"
 - ** 17- 2 Erreurs font-style: underline, transformé en font-style: italic;text-decoration: underline;
 - ** 18- Manque la fermeture de la balise div id=page juste avant </body>
+- ** 19- Modification de la balise shortcut qui doit être à la racine du projet et avoir une extension .ico
+- ** 20- J'ai mis les styles de la page dans une feuille de style dans le dossier css
+- ** 21- J'ai appelé le js en bas de page sur un serveur ou il est déjà hébergé en min.
 ```
+
+## Pour une sémantique plus propre
+
+```javascript
+ajout des balises :
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+J'ai ajouté des balises HTML5 pour structurer la page <header>, <nav>, <main>, <footer>
 
 ## License
 

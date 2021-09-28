@@ -1,0 +1,24 @@
+body{
+    background:#ccc;
+    color:#111;
+    font-family:Arial;
+    font-size:13px;
+}
+#menu{margin:10px 15px;text-align:right;}
+
+ul li{
+    display:inline-block;
+    margin:0;
+}
+ul li a{
+    padding:5px;
+    color:#555;
+}
+
+.bold{font-weight: bold;}
+
+table {
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+td {padding:5px;}
